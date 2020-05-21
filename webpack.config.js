@@ -57,7 +57,7 @@ module.exports = {
 					to: path.resolve(__dirname, "dist"),
 				},
 				{
-					from: path.resolve(__dirname, "assets", "audio", "hit.ogg"),
+					from: path.resolve(__dirname, "assets", "audio", "hit.mp3"),
 					to: path.resolve(__dirname, "dist"),
 				},
 			],

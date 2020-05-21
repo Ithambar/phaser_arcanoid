@@ -4,7 +4,7 @@ import Keys from "../interfaces/Keys";
 const sceneConfig: Phaser.Types.Scenes.SettingsConfig = {
 	active: false,
 	visible: false,
-	key: "Game",
+	key: "Arcanoid",
 };
 
 export class Arcanoid extends Phaser.Scene {
@@ -16,15 +16,14 @@ export class Arcanoid extends Phaser.Scene {
 
 	constructor() {
 		super(sceneConfig);
-		Phaser.Scene.call(this, { key: "breakout" });
+		Phaser.Scene.call(this, { key: "Arcanoid" });
 	}
 
 	public preload(): void {
 		this.load.image("ball", "ball1.png");
 		this.load.image("paddle", "paddle1.png");
 		this.load.image("brick", "brick1.png");
-		this.load.audio("break", "break.wav");
-		this.load.audio("hit", "hit.ogg");
+		this.load.audio("hit", "hit.mp3");
 	}
 
 	public create(): void {

@@ -3,5 +3,5 @@
 		"target": "es5",
 		"sourceMap": true
 	},
-	"include": ["**/*.ts", "webpack.config.ts"]
+	"include": ["**/*.ts", "webpack.config.js"]
 }
