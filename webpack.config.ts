@@ -45,15 +45,19 @@ module.exports = {
 					to: path.resolve(__dirname, "dist"),
 				},
 				{
-					from: path.resolve(__dirname, "assets", "ball1.png"),
+					from: path.resolve(__dirname, "assets", "images", "ball1.png"),
 					to: path.resolve(__dirname, "dist"),
 				},
 				{
-					from: path.resolve(__dirname, "assets", "paddle1.png"),
+					from: path.resolve(__dirname, "assets", "images", "paddle1.png"),
 					to: path.resolve(__dirname, "dist"),
 				},
 				{
-					from: path.resolve(__dirname, "assets", "brick1.png"),
+					from: path.resolve(__dirname, "assets", "images", "brick1.png"),
+					to: path.resolve(__dirname, "dist"),
+				},
+				{
+					from: path.resolve(__dirname, "assets", "audio", "hit.ogg"),
 					to: path.resolve(__dirname, "dist"),
 				},
 			],
