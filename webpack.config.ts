@@ -34,7 +34,7 @@ module.exports = {
 
 	devServer: {
 		contentBase: path.resolve(__dirname, "dist"),
-		https: true,
+		// https: true,
 	},
 
 	plugins: [
@@ -50,6 +50,10 @@ module.exports = {
 				},
 				{
 					from: path.resolve(__dirname, "assets", "paddle1.png"),
+					to: path.resolve(__dirname, "dist"),
+				},
+				{
+					from: path.resolve(__dirname, "assets", "brick1.png"),
 					to: path.resolve(__dirname, "dist"),
 				},
 			],
